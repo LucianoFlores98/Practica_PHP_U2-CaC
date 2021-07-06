@@ -10,7 +10,16 @@
     
 <?php
 
+$usuario['nombre'] = 'Luciano Adrian';
+$usuario['apellido'] = 'Flores';
+$usuario['edad'] = 23;
+$usuario['hobbie'] = 'Pintar';
+$usuario['editor_codigo_fav'] = 'vs code';
+$usuario['so'] = 'Manjaro';
 
+foreach ($usuario as  $key => $valor) {
+    echo  "<strong>" . $key . ": </strong>" . $valor . "<br>";
+}
 
 
 ?>
